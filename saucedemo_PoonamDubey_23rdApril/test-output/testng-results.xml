@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47" started-at="2021-04-23T09:09:17Z" finished-at="2021-04-23T09:09:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47" started-at="2021-04-23T09:09:17Z" finished-at="2021-04-23T09:09:17Z">
+      <class name="com.saucedemo.utility.BrowserSetup">
+        <test-method status="FAIL" signature="startup(org.openqa.selenium.WebDriver, java.lang.String, java.lang.String)[pri:0, instance:com.saucedemo.utility.BrowserSetup@1d16f93d]" name="startup" is-config="true" duration-ms="0" started-at="2021-04-23T14:39:17Z" finished-at="2021-04-23T14:39:17Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method startup requires 3 parameters but 0 were supplied in the @Configuration annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method startup requires 3 parameters but 0 were supplied in the @Configuration annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:198)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:134)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:370)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+      </class> <!-- com.saucedemo.utility.BrowserSetup -->
+      <class name="com.saucedemo.testcases.LoginTestcase">
+        <test-method status="SKIP" signature="tearDownMethod()[pri:0, instance:com.saucedemo.testcases.LoginTestcase@61f8bee4]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2021-04-23T14:39:17Z" finished-at="2021-04-23T14:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.saucedemo.testcases.LoginTestcase@61f8bee4]" name="setup" is-config="true" duration-ms="0" started-at="2021-04-23T14:39:17Z" finished-at="2021-04-23T14:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="validcredentials()[pri:0, instance:com.saucedemo.testcases.LoginTestcase@61f8bee4]" name="validcredentials" duration-ms="0" started-at="2021-04-23T14:39:17Z" finished-at="2021-04-23T14:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validcredentials -->
+        <test-method status="SKIP" signature="tearDownMethod()[pri:0, instance:com.saucedemo.testcases.LoginTestcase@61f8bee4]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2021-04-23T14:39:17Z" finished-at="2021-04-23T14:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="SKIP" signature="closewindow()[pri:0, instance:com.saucedemo.testcases.LoginTestcase@61f8bee4]" name="closewindow" is-config="true" duration-ms="0" started-at="2021-04-23T14:39:17Z" finished-at="2021-04-23T14:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+        <test-method status="SKIP" signature="checkoutFromAccount()[pri:0, instance:com.saucedemo.testcases.LoginTestcase@61f8bee4]" name="checkoutFromAccount" duration-ms="0" started-at="2021-04-23T14:39:17Z" finished-at="2021-04-23T14:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutFromAccount -->
+        <test-method status="SKIP" signature="tearDownMethod()[pri:0, instance:com.saucedemo.testcases.LoginTestcase@61f8bee4]" name="tearDownMethod" is-config="true" duration-ms="0" started-at="2021-04-23T14:39:17Z" finished-at="2021-04-23T14:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="SKIP" signature="addcart()[pri:0, instance:com.saucedemo.testcases.LoginTestcase@61f8bee4]" name="addcart" duration-ms="0" started-at="2021-04-23T14:39:17Z" finished-at="2021-04-23T14:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addcart -->
+      </class> <!-- com.saucedemo.testcases.LoginTestcase -->
+      <class name="com.saucedemo.testcases.BaseClass">
+        <test-method status="PASS" signature="setupBrowser()[pri:0, instance:com.saucedemo.testcases.BaseClass@6325a3ee]" name="setupBrowser" is-config="true" duration-ms="376" started-at="2021-04-23T14:39:17Z" finished-at="2021-04-23T14:39:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+      </class> <!-- com.saucedemo.testcases.BaseClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
